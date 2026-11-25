@@ -1,0 +1,10 @@
+{
+  "name": "english-writing",
+  "version": "1.0.0",
+  "description": "한국어 화자의 영문 작성·윤문 규칙. 직역 수동태·번역투·쉼표 남발을 줄이고, 같은 것은 같은 말로, 한 번에 이해되는 기술 영어로 쓰며 내용은 바꾸지 않음",
+  "author": {
+    "name": "kybeen0521",
+    "url": "https://github.com/kybeen0521"
+  },
+  "keywords": ["english", "writing", "proofreading", "korean", "slides"]
+}
