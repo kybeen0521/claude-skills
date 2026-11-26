@@ -1,0 +1,10 @@
+{
+  "name": "figure-colors",
+  "version": "1.0.0",
+  "description": "그래프·곡선·맵·상자그림의 색을 정해진 hex 값으로 칠하는 규칙과 팔레트 파일. 범주형은 Paul Tol, 크기(연속)는 청록 단계, 강조는 #C00000",
+  "author": {
+    "name": "kybeen0521",
+    "url": "https://github.com/kybeen0521"
+  },
+  "keywords": ["color", "palette", "figure", "matplotlib", "slides"]
+}

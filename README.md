@@ -8,6 +8,7 @@ A collection of Claude Code skills by kybeen0521. Each skill is a separate plugi
 |---|---|
 | [report-format](plugins/report-format) | Builds Korean A4 technical reports as Word (.docx) files in a fixed layout, with preview and automatic checks. |
 | [english-writing](plugins/english-writing) | Rules and a review procedure for English written by Korean speakers: fewer translated passives and commas, one word for one thing, sentences readers understand at first reading, and no change to the content. |
+| [figure-colors](plugins/figure-colors) | Fixed colour values and rules for engineering figures: Paul Tol for categories, teal steps for magnitude, #C00000 for one accent, loaded from one palette file. |
 
 ## Installation
 
@@ -17,6 +18,7 @@ In the Claude Code chat prompt:
 /plugin marketplace add kybeen0521/claude-skills
 /plugin install report-format@claude-skills
 /plugin install english-writing@claude-skills
+/plugin install figure-colors@claude-skills
 ```
 
 From a shell (VS Code extension, or anywhere `/plugin` is unavailable):
@@ -25,6 +27,7 @@ From a shell (VS Code extension, or anywhere `/plugin` is unavailable):
 claude plugin marketplace add kybeen0521/claude-skills
 claude plugin install report-format@claude-skills
 claude plugin install english-writing@claude-skills
+claude plugin install figure-colors@claude-skills
 ```
 
 Start a new Claude Code session after installing so the skills are picked up.
